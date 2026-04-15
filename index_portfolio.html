@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        section {
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            padding: 15px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        /* Section 1: Profile */
+        .profile-section {
+            align-items: center;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: #eee;
+            margin-right: 20px;
+            object-fit: cover;
+            border: 2px solid #333;
+        }
+        .profile-text {
+            flex: 1;
+        }
+        
+        .info-section {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            padding: 0; 
+        }
+        .info-box {
+            flex: 1;
+            padding: 20px;
+        }
+    
+        .separator-line {
+            width: 1px;
+            background-color: #ccc;
+            align-self: stretch; 
+        }
+        
+        .table-section {
+            display: block;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            height: 40px;
+            padding: 8px;
+            text-align: left;
+        }
+        
+        .contact-section {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 20px;
+            font-size: 0.9em;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .icon {
+            width: 24px;
+            height: 24px;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <section class="profile-section">
+        <img src="pfp.jpeg" alt="Profile Image" class="profile-img">
+        
+        <div class="profile-text">
+            
+            <h1>TINKA FORTUNATE</h1>
+            
+            
+            <p><strong>Bio:</strong> Enthusiastic professional with a passion for web development and technology. Dedicated to creating impactful solutions and continuous learning.</p>
+        </div>
+    </section>
+    <section class="info-section">
+        <div class="info-box">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Kyambogo University</strong> -(2024-2027)</li>
+                <li>BACHELOR IN INFORMATION TECHNOLOGY AND COMPUTING</li>
+                <li><strong>Uganda Martyrs SS Namugongo</strong>-(2022-2023)</li>
+                <li>UGANDA ADVANCED CERTIFICATE OF EDUCATION</li>
+                <li><strong>NDEJJE SENIOR SECONDARY SCHOOL</strong>- (2017-2020)</li>
+                <li>UGANDA CERTIFICATE OF EDUCATION</li>
+            </ul>
+        </div>
+        <div class="separator-line"></div>
+
+        <div class="info-box">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Web Design</li>
+                <li>Machine Learning</li>
+                <li>Reading</li>
+            </ul>
+        </div>
+    </section>
+
+ <section class="table-section">
+        <h2>Weekly Habits / Activities</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>DAY</th>
+                    <th>ACTIVITY</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>Morning Yoga & Coding Practice</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>Reading Technical Documentation</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>Project Development Session</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>Networking & Online Learning</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>Code Review & Portfolio Updates</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>Skill Workshop or Personal Project</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>Planning for the Week & Relaxation</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+
+    <section class="contact-section">
+        <div class="contact-item">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" class="icon">
+            <span>0783245336</span>
+        </div>
+
+        <div class="contact-item">
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" class="icon">
+            <span>tinkafortunate@gmail.com</span>
+        </div>
+
+        <div class="contact-item">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="X (Twitter)" class="icon">
+            <span>Tinka-axe</span>
+        </div>
+    </section>
+
+</body>
+</html>
